@@ -11,7 +11,7 @@ layout: default
 ## emotes ($30-$35 each)
 <div>
 {% for img in site.data.emotes %}
-    <a
+    <a class="thumbnail"
       data-fancybox="emotes"
       data-src="/assets/{{ img.file }}"
       data-caption="{{ img.desc }}"
@@ -23,7 +23,7 @@ layout: default
 ## full body art ($20-$50)
 <div>
 {% for img in site.data.full%}
-    <a
+    <a class="thumbnail"
       data-fancybox="full"
       data-src="/assets/{{ img.file }}"
       data-caption="{{ img.desc }}"

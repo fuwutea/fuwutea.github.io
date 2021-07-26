@@ -284,7 +284,21 @@ table {
 
 /** Thumbnails */
 img.thumbnail {
+  border: 1px solid $background-color;
+  -o-transition: .25s;
+  -ms-transition: .25s;
+  -moz-transition: .25s;
+  -webkit-transition: .25s;
+  transition: .25s;
   &:hover {
     cursor: pointer;
+    border: 1px solid $brand-color;
+  }
+}
+
+a.thumbnail {
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
   }
 }
