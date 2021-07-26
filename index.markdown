@@ -16,7 +16,7 @@ layout: default
       data-src="/assets/{{ img.file }}"
       data-caption="{{ img.desc }}"
     >
-      <img src="/assets/thumbs/{{ img.file }}" width="100px"/>
+      <img class="thumbnail" src="/assets/thumbs/{{ img.file }}" width="100px"/>
     </a>
 {% endfor %}
 </div>
@@ -28,7 +28,7 @@ layout: default
       data-src="/assets/{{ img.file }}"
       data-caption="{{ img.desc }}"
     >
-      <img src="/assets/thumbs/{{ img.file }}" width="100px"/>
+      <img class="thumbnail" src="/assets/thumbs/{{ img.file }}" width="100px"/>
     </a>
 {% endfor %}
 </div>

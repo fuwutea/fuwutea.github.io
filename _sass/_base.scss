@@ -281,3 +281,10 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+/** Thumbnails */
+img.thumbnail {
+  &:hover {
+    cursor: pointer;
+  }
+}
