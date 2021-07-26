@@ -22,8 +22,9 @@ title: ttv/fuwutea
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   commissions by fuwutea
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "fuwutea.github.io" # the subpath of your site, e.g. /blog
+url: "https://fuwutea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
 
 # Build settings
 minima:
